@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+.container {
+  text-align: center;
+  padding: 50px 100px;
+  background: linear-gradient(#82e8df, #9da3e1);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  max-width: 500px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center bottom;
+  border-radius: 8px;
+}
+p {
+  margin: 20px;
+  font-size: 20px;
+  text-align: start;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.wiki {
+  text-align: left;
+  margin: 0 0 0 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(70, 135, 255);
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  background-color: rgb(231, 246, 254);
+  color: rgb(70, 135, 255);
+}
+
+footer {
+  padding: 30px;
+}
